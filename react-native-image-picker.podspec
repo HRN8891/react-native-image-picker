@@ -11,8 +11,7 @@ Pod::Spec.new do |s|
   s.authors      = package['author']
   s.homepage     = package['homepage']
   s.platform     = :ios, "9.0"
-
-  s.source       = { :git => "https://github.com/react-native-image-picker/react-native-image-picker.git", :tag => "v#{s.version}" }
+  s.source       = { :git => "https://github.com/HRN8891/react-native-image-picker.git", :tag => "v#{s.version}" }
   s.source_files  = "ios/*.{h,m,mm}"
 
   s.frameworks   = 'Photos','PhotosUI'
